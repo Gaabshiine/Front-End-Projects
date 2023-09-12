@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- bootrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
+    <!-- Include Owl Carousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- bootstrap icons/ CDN  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <style>
+        * {
+            font-family: 'Nunito', sans-serif;
+        }
+
+        section {
+            padding: 60px 0;
+        }
+
+        #txtWhite {
+            color: #fff;
+        }
+
+        .navbar-toggler:focus {
+            outline: none;
+            box-shadow: none;
+        }
+
+        .money {
+            color: #da6b1d;
+            margin-left: 1rem;
+            font-size: 2.5rem;
+        }
+
+        .icons {
+            color: #da6b1d;
+        }
+
+        .bg-color {
+            background-color: #000;
+            color: #fff;
+        }
+
+        .bg-color:hover {
+            color: #fff;
+        }
+
+        /* menu */
+        .position {
+            position: relative;
+        }
+
+        .heart {
+            position: absolute;
+            top: 35px;
+            right: 35px;
+            background-color: #fff;
+            color: #000;
+            width: 50px;
+            height: 50px;
+            line-height: 55px;
+            text-indent: 7px;
+            font-size: 22px;
+        }
+
+        /* card starts */
+        .img {
+            height: 5rem;
+            width: 5rem;
+            object-fit: cover;
+        }
+
+        .quote {
+            margin-top: -35px;
+            font-size: 60px;
+            color: #b6b4b4;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-md navbar-light py-3" style="background-color: #000;">
+        <div class="container-lg">
+            <a class="navbar-brand" id="txtWhite" href="#"><i class="fa-solid fa-book-open me-2" id="txtWhite"></i>
+                Triple A
+                Graphics</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars" style="color: #fff;"></i>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#" id="txtWhite">About The book</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" id="txtWhite">Reviews</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" id="txtWhite">Get in Touch</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-lg d-none d-md-block" id="txtWhite" href="#"
+                            style="background-color: #ff8400;">Buy
+                            Now</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link d-block d-md-none" id="txtWhite" href="#">Pricing</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- navbar end -->
+
+    <!-- menu -->
+    <section id="menu" class="my-5">
+        <div class="container-lg">
+            <div class="text-center">
+                <h1 style="color: #ff8400;">Menu</h1>
+                <p class="lead">SPECIALITY FOOD AND JUICE</p>
+            </div>
+            <!-- part 1 -->
+            <div class="row justify-content-center align-items-center gy-4">
+                <!-- menu 1 -->
+                <div class="col-md-5 col-lg-3">
+                    <div class="card">
+                        <div class="card-body position">
+                            <i class="bi bi-heart-fill rounded-circle heart"></i>
+                            <img src="./img/menu1.jpg" class="card-img-top" alt="...">
+                            <div class="icons pt-3 fs-4">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-half"></i>
+                            </div>
+                            <h3>Chicken And Chips</h3>
+                            <p>Macaamiil Waxaanu Idin Haynaa Cunooyiin Aad Ku Raaxeesataan, Fastfood,
+                                Chicken And Chips, Nolosha Waxay Rabtaa Iney Raxeesato Ee Uraaxeeya.</p>
+                            <a href="#" class="btn bg-color px-4">Order Now</a>
+                            <span class="lead money fs-4">$20.00</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- menu 2 -->
+                <div class="col-md-5 col-lg-3">
+                    <div class="card">
+                        <div class="card-body position">
+                            <i class="bi bi-heart-fill rounded-circle heart"></i>
+                            <img src="./img/menu2.jpg" class="card-img-top" alt="...">
+                            <div class="icons pt-3 fs-4">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-half"></i>
+                            </div>
+                            <h3>Chicken And Chips</h3>
+                            <p>Macaamiil Waxaanu Idin Haynaa Cunooyiin Aad Ku Raaxeesataan, Fastfood,
+                                Chicken And Chips, Nolosha Waxay Rabtaa Iney Raxeesato Ee Uraaxeeya.</p>
+                            <a href="#" class="btn bg-color px-4">Order Now</a>
+                            <span class="lead money fs-4">$20.00</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- menu 3 -->
+                <div class="col-md-5 col-lg-3">
+                    <div class="card">
+                        <div class="card-body position">
+                            <i class="bi bi-heart-fill rounded-circle heart"></i>
+                            <img src="./img/menu3.jpg" class="card-img-top" alt="...">
+                            <div class="icons pt-3 fs-4">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-half"></i>
+                            </div>
+                            <h3>Chicken And Chips</h3>
+                            <p>Macaamiil Waxaanu Idin Haynaa Cunooyiin Aad Ku Raaxeesataan, Fastfood,
+                                Chicken And Chips, Nolosha Waxay Rabtaa Iney Raxeesato Ee Uraaxeeya.</p>
+                            <a href="#" class="btn bg-color px-4">Order Now</a>
+                            <span class="lead money fs-4">$20.00</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- menu 4 -->
+                <div class="col-md-5 col-lg-3">
+                    <div class="card">
+                        <div class="card-body position">
+                            <i class="bi bi-heart-fill rounded-circle heart"></i>
+                            <img src="./img/menu1.jpg" class="card-img-top" alt="...">
+                            <div class="icons pt-3 fs-4">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-half"></i>
+                            </div>
+                            <h3>Chicken And Chips</h3>
+                            <p>Macaamiil Waxaanu Idin Haynaa Cunooyiin Aad Ku Raaxeesataan, Fastfood,
+                                Chicken And Chips, Nolosha Waxay Rabtaa Iney Raxeesato Ee Uraaxeeya.</p>
+                            <a href="#" class="btn bg-color px-4">Order Now</a>
+                            <span class="lead money fs-4">$20.00</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- part two -->
+            <div class="row justify-content-center align-items-center mt-2 gy-4">
+                <!-- menu 1 -->
+                <div class="col-md-5 col-lg-3">
+                    <div class="card">
+                        <div class="card-body position">
+                            <i class="bi bi-heart-fill rounded-circle heart"></i>
+                            <img src="./img/menu1.jpg" class="card-img-top" alt="...">
+                            <div class="icons pt-3 fs-4">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-half"></i>
+                            </div>
+                            <h3>Chicken And Chips</h3>
+                            <p>Macaamiil Waxaanu Idin Haynaa Cunooyiin Aad Ku Raaxeesataan, Fastfood,
+                                Chicken And Chips, Nolosha Waxay Rabtaa Iney Raxeesato Ee Uraaxeeya.</p>
+                            <a href="#" class="btn bg-color px-4">Order Now</a>
+                            <span class="lead money fs-4">$20.00</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- menu 2 -->
+                <div class="col-md-5 col-lg-3">
+                    <div class="card">
+                        <div class="card-body position">
+                            <i class="bi bi-heart-fill rounded-circle heart"></i>
+                            <img src="./img/menu2.jpg" class="card-img-top" alt="...">
+                            <div class="icons pt-3 fs-4">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-half"></i>
+                            </div>
+                            <h3>Chicken And Chips</h3>
+                            <p>Macaamiil Waxaanu Idin Haynaa Cunooyiin Aad Ku Raaxeesataan, Fastfood,
+                                Chicken And Chips, Nolosha Waxay Rabtaa Iney Raxeesato Ee Uraaxeeya.</p>
+                            <a href="#" class="btn bg-color px-4">Order Now</a>
+                            <span class="lead money fs-4">$20.00</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- menu 3 -->
+                <div class="col-md-5 col-lg-3">
+                    <div class="card">
+                        <div class="card-body position">
+                            <i class="bi bi-heart-fill rounded-circle heart"></i>
+                            <img src="./img/menu3.jpg" class="card-img-top" alt="...">
+                            <div class="icons pt-3 fs-4">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-half"></i>
+                            </div>
+                            <h3>Chicken And Chips</h3>
+                            <p>Macaamiil Waxaanu Idin Haynaa Cunooyiin Aad Ku Raaxeesataan, Fastfood,
+                                Chicken And Chips, Nolosha Waxay Rabtaa Iney Raxeesato Ee Uraaxeeya.</p>
+                            <a href="#" class="btn bg-color px-4">Order Now</a>
+                            <span class="lead money fs-4">$20.00</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- menu 4 -->
+                <div class="col-md-5 col-lg-3">
+                    <div class="card">
+                        <div class="card-body position">
+                            <i class="bi bi-heart-fill rounded-circle heart"></i>
+                            <img src="./img/menu1.jpg" class="card-img-top" alt="...">
+                            <div class="icons pt-3 fs-4">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-half"></i>
+                            </div>
+                            <h3>Chicken And Chips</h3>
+                            <p>Macaamiil Waxaanu Idin Haynaa Cunooyiin Aad Ku Raaxeesataan, Fastfood,
+                                Chicken And Chips, Nolosha Waxay Rabtaa Iney Raxeesato Ee Uraaxeeya.</p>
+                            <a href="#" class="btn bg-color px-4">Order Now</a>
+                            <span class="lead money fs-4">$20.00</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- part three -->
+            <div class="row justify-content-center mt-2 align-items-center gy-4">
+                <!-- menu 1 -->
+                <div class="col-md-5 col-lg-3">
+                    <div class="card">
+                        <div class="card-body position">
+                            <i class="bi bi-heart-fill rounded-circle heart"></i>
+                            <img src="./img/menu5.jpg" class="card-img-top" alt="...">
+                            <div class="icons pt-3 fs-4">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-half"></i>
+                            </div>
+                            <h3>Chicken And Chips</h3>
+                            <p>Macaamiil Waxaanu Idin Haynaa Cunooyiin Aad Ku Raaxeesataan, Fastfood,
+                                Chicken And Chips, Nolosha Waxay Rabtaa Iney Raxeesato Ee Uraaxeeya.</p>
+                            <a href="#" class="btn bg-color px-4">Order Now</a>
+                            <span class="lead money fs-4">$20.00</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- menu 2 -->
+                <div class="col-md-5 col-lg-3">
+                    <div class="card">
+                        <div class="card-body position">
+                            <i class="bi bi-heart-fill rounded-circle heart"></i>
+                            <img src="./img/menu6.jpg" class="card-img-top" alt="...">
+                            <div class="icons pt-3 fs-4">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-half"></i>
+                            </div>
+                            <h3>Chicken And Chips</h3>
+                            <p>Macaamiil Waxaanu Idin Haynaa Cunooyiin Aad Ku Raaxeesataan, Fastfood,
+                                Chicken And Chips, Nolosha Waxay Rabtaa Iney Raxeesato Ee Uraaxeeya.</p>
+                            <a href="#" class="btn bg-color px-4">Order Now</a>
+                            <span class="lead money fs-4">$20.00</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- menu 3 -->
+                <div class="col-md-5 col-lg-3">
+                    <div class="card">
+                        <div class="card-body position">
+                            <i class="bi bi-heart-fill rounded-circle heart"></i>
+                            <img src="./img/menu7.jpg" class="card-img-top" alt="...">
+                            <div class="icons pt-3 fs-4">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-half"></i>
+                            </div>
+                            <h3>Chicken And Chips</h3>
+                            <p>Macaamiil Waxaanu Idin Haynaa Cunooyiin Aad Ku Raaxeesataan, Fastfood,
+                                Chicken And Chips, Nolosha Waxay Rabtaa Iney Raxeesato Ee Uraaxeeya.</p>
+                            <a href="#" class="btn bg-color px-4">Order Now</a>
+                            <span class="lead money fs-4">$20.00</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- menu 4 -->
+                <div class="col-md-5 col-lg-3">
+                    <div class="card">
+                        <div class="card-body position">
+                            <i class="bi bi-heart-fill rounded-circle heart"></i>
+                            <img src="./img/menu8.jpg" class="card-img-top" alt="...">
+                            <div class="icons pt-3 fs-4">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-half"></i>
+                            </div>
+                            <h3>Chicken And Chips</h3>
+                            <p>Macaamiil Waxaanu Idin Haynaa Cunooyiin Aad Ku Raaxeesataan, Fastfood,
+                                Chicken And Chips, Nolosha Waxay Rabtaa Iney Raxeesato Ee Uraaxeeya.</p>
+                            <a href="#" class="btn bg-color px-4">Order Now</a>
+                            <span class="lead money fs-4">$20.00</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- menu end -->
+
+
+    <section id="cards">
+        <div class="container-lg">
+            <div class="text-center">
+                <h1>Card</h1>
+                <p class="lead">SPECIALITY FOOD AND JUICE</p>
+            </div>
+
+            <div class="row align-items-center justify-content-center">
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                        <!-- card 1 -->
+                        <div class="card" style="min-width: 18rem;">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div>
+                                        <img src="./img/gaabshiine.jpg" class="img rounded-circle" alt="">
+                                    </div>
+                                    <div class="text">
+                                        <h3 style="color: #000; font-size: 1.2rem; font-weight: bold;">Gaab Shiine</h3>
+                                        <div class="icons fs-6">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-half"></i>
+                                        </div>
+                                    </div>
+                                    <div class="quote">
+                                        <i class="fa-solid fa-quote-right"></i>
+                                    </div>
+                                </div>
+
+                                <p>Macaamiil Waxaanu Idin Haynaa Cunooyiin Aad Ku Raaxeesataan, Fastfood,
+                                    Chicken And Chips, Nolosha Waxay Rabtaa Iney Raxeesato Ee Uraaxeeya.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+
+                    <div class="item">
+                        <!-- card 1 -->
+                        <div class="card" style="min-width: 18rem;">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div>
+                                        <img src="./img/yahyeIcon.png" class="img rounded-circle" alt="">
+                                    </div>
+                                    <div class="text">
+                                        <h3 style="color: #000; font-size: 1.2rem; font-weight: bold;">Gaab Shiine</h3>
+                                        <div class="icons fs-6">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-half"></i>
+                                        </div>
+                                    </div>
+                                    <div class="quote">
+                                        <i class="fa-solid fa-quote-right"></i>
+                                    </div>
+                                </div>
+
+                                <p>Macaamiil Waxaanu Idin Haynaa Cunooyiin Aad Ku Raaxeesataan, Fastfood,
+                                    Chicken And Chips, Nolosha Waxay Rabtaa Iney Raxeesato Ee Uraaxeeya.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <!-- card 1 -->
+                        <div class="card" style="min-width: 18rem;">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div>
+                                        <img src="./img/bile.jpg" class="img rounded-circle" alt="">
+                                    </div>
+                                    <div class="text">
+                                        <h3 style="color: #000; font-size: 1.2rem; font-weight: bold;">Gaab Shiine</h3>
+                                        <div class="icons fs-6">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-half"></i>
+                                        </div>
+                                    </div>
+                                    <div class="quote">
+                                        <i class="fa-solid fa-quote-right"></i>
+                                    </div>
+                                </div>
+
+                                <p>Macaamiil Waxaanu Idin Haynaa Cunooyiin Aad Ku Raaxeesataan, Fastfood,
+                                    Chicken And Chips, Nolosha Waxay Rabtaa Iney Raxeesato Ee Uraaxeeya.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- bootstrap 5 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!-- Include jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- Include Owl Carousel JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- importation file js -->
+    <script src="./js/app.js" type="text/javascript"></script>
+</body>
+
+</html>
