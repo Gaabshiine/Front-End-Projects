@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto:wght@300&display=swap');
+
+* {
+    font-family: 'Lato', sans-serif;
+    font-weight: 900px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+#btn {
+    color: #fff;
+    background-color: #ed1b24;
+    font-size: 14px;
+
+}
+#btn:focus{
+    box-shadow: none;
+}
+
+#btn:hover {
+    background-color: #c7121b;
+}
+#btndropdownEdu{
+    color: #fff;
+    background-color: #ed1b24;
+    font-size: 10px;
+    padding: 2px;
+    width: 60px;
+    text-transform: capitalize;
+}
+
+
+
+#btndrop{
+    color: #000000;
+    border:1px solid #c4c4c4;
+    font-size: 14px;
+    outline: none;
+}
+
+
+
+
+
+#btn_jinsiga{
+    border: 1px solid #c4c4c4;
+}
+
+
+
+
+
+
+
+
+#button-addon2 {
+    color: #fff;
+    background-color: #ed1b24;
+    border: none;
+}
+
+#button-addon2:hover {
+    color: #fff;
+    background-color: #c7121b;
+    border: none;
+}
+
+#i{
+    font-size: 20px;
+    color: #ed1b24;
+    cursor: pointer;
+}
+
+#i:hover{
+    font-size: 20px;
+    color: #c7121b;
+    cursor: pointer;
+}
+
+#btnheerka_background{
+    font-size: 10px;
+    background-color: #ed1b24;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 15px;
+}
+
+#btnheerka_background:hover{
+    background-color: #c7121b;
+}
+
+#btn_heerka{
+    font-size: 10px;
+    border:1px solid #dbdbdb;
+    color: #ed1b24;
+    cursor: pointer;
+    padding: 10px 15px;
+}
+
+#btn_heerka:hover{
+    background-color: #c7121b;
+    color: #fff;
+    border: none;
+}
+
+#footer{
+    background-color: #373737;
+    /* background-color: #8d8070; */
+}
+
+
+#position{
+    position: relative;
+}
+
+#person{
+    position: absolute;
+    top: 3px;
+    left: 8.5em;
+    color: #aa0000;
+}
+
+.form-input{
+    height: 30px;
+    width: 150px;
+    text-indent: 33px;
+    border-radius: 10em;
+}
+
+.form-input:focus{
+    box-shadow: none;
+}
+
+.form-input:hover{
+    box-shadow: 2px 2px 2px 2px #f5f5f5;
+}
+
+
+#text_koontada_socelin{
+    color: #5f5f5f;
+}
