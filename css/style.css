@@ -22,7 +22,7 @@ nav{
 :root {
    --color-1: #000000;
    --text-color: #f0f0f0;
-   --accent-color: #006aff;
+   --accent-color: #0dc55a;
 }
 
 * {
@@ -300,11 +300,11 @@ nav svg {
 }
 
 .main-container-3 .flex-container-2 .items .user {
-   color: green;
+   color: #0dc55a;
 }
 
 .main-container-3 .flex-container-2 .items .gr {
-   color: orange;
+   color: #ffbf00;
 }
 
 .main-container-3 .flex-container-2 .items small {
@@ -312,7 +312,7 @@ nav svg {
 }
 
 .main-container-3 .flex-container-2 .stars i {
-   color: yellow;
+   color: #ffbf00;
 }
 
 .main-container-3 .flex-container-2 .change-way-of-gaming {
@@ -361,12 +361,12 @@ nav svg {
 }
 
 .main-container-4 .flex-container-3 .items .wifi {
-   background-color: green;
+   background-color: #0dc55a;
 
 }
 
 .main-container-4 .flex-container-3 .items .user {
-   background-color: orange;
+   background-color: #ffbf00;
 
 }
 
@@ -387,7 +387,7 @@ nav svg {
 }
 
 .main-container-5 .flex-container-4 .customer-review small {
-   color: green;
+   color: #0dc55a;
    font-size: 20px;
 }
 
